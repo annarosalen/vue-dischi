@@ -13,11 +13,13 @@
       <div class="contenitore" v-for="(item,index) in arrayDischi">
         <div class="album">
           <img :src="item.poster" alt="">
-          <span>{{item.title}}</span>
-          <span>{{item.author}}</span>
-          <span>{{item.year}}</span>
-          <!-- <span>{{item.genre}}</span> -->
+          <div class="testo">
+            <span id="titolo">{{item.title}}</span>
+            <span id="autore">{{item.author}}</span>
+            <span id="anno">{{item.year}}</span>
+          </div>
         </div>
+        <!-- <span>{{item.genre}}</span> -->
       </div>
     </div>
 

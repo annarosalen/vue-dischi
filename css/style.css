@@ -16,27 +16,51 @@ body{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  width: 50%;
+  align-content:space-between;
+  width: 40%;
   height: 90%;
   margin-top: 50px;
 }
 
 .contenitore{
   width: calc(100% / 4);
-  height: calc(100% / 4);
+  height: calc((100% / 4) -10px);
   text-align: center;
-  padding: 20px;
+  padding: 10px;
 }
 
 .album{
   background-color: #2e3a46;
+  padding: 8px;
+  height: 200px;
+}
+
+img{
+  height: 80px;
+  width: 80px;
+}
+
+.testo{
+  padding: 0 10px;
 }
 
 span{
   display: block;
 }
 
-img{
-  height: 100px;
-  width: 100px;
+#titolo{
+  padding-top: 5px;
+  text-transform: uppercase;
+  color: white;
+  font-size: 14px;
+}
+
+#autore{
+  padding-top: 10px;
+  line-height: 20px;
+}
+
+#autore, #anno{
+  color: #60656a;
+  font-size: 13px;
 }
