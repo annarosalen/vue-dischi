@@ -1,0 +1,42 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  height: 100vh;
+  background-image: linear-gradient( to bottom, #2e3a46 0%, #2e3a46 5%, #1e2d3b 5%, #1e2d3b 100% );
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#app{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 50%;
+  height: 90%;
+  margin-top: 50px;
+}
+
+.contenitore{
+  width: calc(100% / 4);
+  height: calc(100% / 4);
+  text-align: center;
+  padding: 20px;
+}
+
+.album{
+  background-color: #2e3a46;
+}
+
+span{
+  display: block;
+}
+
+img{
+  height: 100px;
+  width: 100px;
+}
